@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="API_Rest" verbose="2">
+  <test thread-count="5" name="Default XmlTest name 86dad357-1fd1-44b4-b849-667b4f9fa2b1" verbose="2">
+    <parameter name="dataSheet" value="API_Rest_TD"/>
+    <parameter name="testCaseID" value="TCAPI001"/>
+    <classes>
+      <class name="com.API.test.AllTest">
+        <methods>
+          <include name="postUserDetails"/>
+        </methods>
+      </class> <!-- com.API.test.AllTest -->
+    </classes>
+  </test> <!-- Default XmlTest name 86dad357-1fd1-44b4-b849-667b4f9fa2b1 -->
+</suite> <!-- API_Rest -->

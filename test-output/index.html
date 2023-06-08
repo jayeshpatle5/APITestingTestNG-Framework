@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-WEB_APP">
+              <span class="suite-name border-passed">WEB_APP</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-WEB_APP">
+                    <span>D:\GRhombus\Workspace\eclipseworkspace\TrusTrace\Execution\executionUpdate.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-WEB_APP">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-WEB_APP">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-WEB_APP">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-WEB_APP">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-WEB_APP">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-WEB_APP">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">2 methods,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-WEB_APP" class="hide-methods passed suite-WEB_APP"> (hide)</a> <!-- hide-methods passed suite-WEB_APP -->
+                      <a href="#" panel-name="suite-WEB_APP" class="show-methods passed suite-WEB_APP"> (show)</a> <!-- show-methods passed suite-WEB_APP -->
+                    </span>
+                    <div class="method-list-content passed suite-WEB_APP">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WEB_APP" title="com.webapp.tests.AllTests" hash-for-method="apiAutomationForPostEndPoints">apiAutomationForPostEndPoints</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WEB_APP" title="com.webapp.tests.AllTests" hash-for-method="sauceProductOnlineBuyEndToEndTransaction">sauceProductOnlineBuyEndToEndTransaction</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-WEB_APP -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-WEB_APP" class="panel WEB_APP">
+          <div class="suite-WEB_APP-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.webapp.tests.AllTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="apiAutomationForPostEndPoints">
+                  </a> <!-- apiAutomationForPostEndPoints -->
+                  <span class="method-name">apiAutomationForPostEndPoints</span>
+                  <em>
+(Automation of the posts endpoints)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sauceProductOnlineBuyEndToEndTransaction">
+                  </a> <!-- sauceProductOnlineBuyEndToEndTransaction -->
+                  <span class="method-name">sauceProductOnlineBuyEndToEndTransaction</span>
+                  <em>
+(Buy Product online)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WEB_APP-class-passed -->
+        </div> <!-- panel WEB_APP -->
+        <div panel-name="test-xml-WEB_APP" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\GRhombus\Workspace\eclipseworkspace\TrusTrace\Execution\executionUpdate.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;2&quot; name=&quot;WEB_APP&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Command line test 9762e956-fa17-4ff0-a474-8c978e6ed79f&quot;&gt;
+    &lt;parameter name=&quot;dataSheet&quot; value=&quot;WEB_APP_TD&quot;/&gt;
+    &lt;parameter name=&quot;testCaseID&quot; value=&quot;TC001&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.webapp.tests.AllTests&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;sauceProductOnlineBuyEndToEndTransaction&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.webapp.tests.AllTests --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test 9762e956-fa17-4ff0-a474-8c978e6ed79f --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Command line test 28f133fd-9277-4805-93dc-2cb1e71695e9&quot;&gt;
+    &lt;parameter name=&quot;dataSheet&quot; value=&quot;WEB_APP_TD&quot;/&gt;
+    &lt;parameter name=&quot;testCaseID&quot; value=&quot;TC002&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.webapp.tests.AllTests&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;apiAutomationForPostEndPoints&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.webapp.tests.AllTests --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test 28f133fd-9277-4805-93dc-2cb1e71695e9 --&gt;
+&lt;/suite&gt; &lt;!-- WEB_APP --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-WEB_APP" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for WEB_APP</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test 9762e956-fa17-4ff0-a474-8c978e6ed79f (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Command line test 28f133fd-9277-4805-93dc-2cb1e71695e9 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-WEB_APP" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for WEB_APP</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">P1</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">apiAutomationForPostEndPoints</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">sauceProductOnlineBuyEndToEndTransaction</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-WEB_APP" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for WEB_APP</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_WEB_APP');
+function tableData_WEB_APP() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(2);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'sauceProductOnlineBuyEndToEndTransaction')
+data.setCell(0, 2, 'com.webapp.tests.AllTests')
+data.setCell(0, 3, 5685);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'apiAutomationForPostEndPoints')
+data.setCell(1, 2, 'com.webapp.tests.AllTests')
+data.setCell(1, 3, 3372);
+window.suiteTableData['WEB_APP']= { tableData: data, tableDiv: 'times-div-WEB_APP'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 9 seconds</span>
+              <div id="times-div-WEB_APP">
+              </div> <!-- times-div-WEB_APP -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-WEB_APP" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for WEB_APP</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-WEB_APP" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">2 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.webapp.tests.AllTests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">sauceProductOnlineBuyEndToEndTransaction</span>
+                <br/>
+                <span class="ignored-method-name">apiAutomationForPostEndPoints</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-WEB_APP" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.webapp.tests.AllTests</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">launchBrowser(TC001, WEB_APP_TD)</span>
+                <span class="method-start">168 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">8915 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">8930 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">sauceProductOnlineBuyEndToEndTransaction</span>
+                <span class="method-start">8932 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">14635 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">launchBrowser(TC002, WEB_APP_TD)</span>
+                <span class="method-start">16539 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">16540 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">16541 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">apiAutomationForPostEndPoints</span>
+                <span class="method-start">16542 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">19917 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
